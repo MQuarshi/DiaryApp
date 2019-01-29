@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My Diary</string>
+    <string name="username">Username</string>
+
+    <string name="password">Password</string>
+    <string name="pword_hint">Enter here</string>
+    <string name="login">Login</string>
+    <string name="pword">Enter Password Here...</string>
+    <string name="name1">Enter Username Here...</string>
+    <string name="register">Register</string>
+    <string name="confirm">Confirm password...</string>
+    <string name="login1">login</string>
+    <string name="register1">register</string>
+    <string name="show_all_entries">Show All Entries</string>
+    <string name="create_a_new_entry">Create a New Entry</string>
+    <string name="enter_subject">Enter Subject...</string>
+    <string name="enter_date">Enter Date...</string>
+    <string name="unique_id_num">Unique id num...</string>
+    <string name="begin_entry">Begin entry...</string>
+    <string name="Submit">Button</string>
+    <string name="submit">submit</string>
+    <string name="entry_id">Entry ID</string>
+
+    <string name="subject">Subject</string>
+
+
+    <string name="textview">Textview</string>
+    <string name="textview1">textview</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_open_diary">OpenDiary</string>
+    <string name="del">del</string>
+    <string name="delete">delete</string>
+    <string name="title">Title</string>
+    <string name="id">ID</string>
+    <string name="dates">Date</string>
+    <string name="del1">DEL</string>
+    <string name="submit2">Submit</string>
+    <string name="enter_username">Enter Username...</string>
+    <string name="enter_password">Enter Password...</string>
+    <string name="sub1">Submit</string>
+    <string name="month">month</string>
+    <string name="date">date</string>
+
+    <string name="ini_textview">Subject Textview</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="show_location">Show Location</string>
+
+
+</resources>
+

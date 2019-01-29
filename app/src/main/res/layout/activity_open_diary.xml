@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpenDiary"
+    android:id="@+id/rl"
+    android:padding="12dp">
+
+    <EditText
+        android:id="@+id/DateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="@string/enter_date"
+        android:inputType="datetime"
+        android:selectAllOnFocus="false" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:hint="@string/enter_subject"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="351dp"
+        android:layout_height="227dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:gravity="top"
+        android:hint="@string/begin_entry"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:textAlignment="gravity" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/title"
+        android:layout_below="@+id/content"
+        android:layout_marginTop="-80dp"
+        android:text="@string/submit2" />
+
+    <Button
+        android:id="@+id/delButton"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/title"
+        android:layout_below="@+id/content"
+        android:layout_marginTop="-80dp"
+        android:text="@string/del1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp"
+        android:text="@string/show_location" />
+
+</RelativeLayout>
